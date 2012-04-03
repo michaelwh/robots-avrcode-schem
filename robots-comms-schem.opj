@@ -1,0 +1,124 @@
+(ExpressProject "robots-comms-schem"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\robots-comms-schem.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (ATmega644P
+      (FullPartName "ATmega644P.Normal")
+      (LibraryName "H:\ROBOTS\ORCADLIB\MYLIB.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ATmega64
+      (FullPartName "ATmega64.Normal")
+      (LibraryName "H:\ROBOTS\ORCADLIB\AVR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (74HCT138
+      (FullPartName "74HCT138.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\MUXDECODER.OLB")
+      (DeviceIndex "0"))
+    (74HCT151
+      (FullPartName "74HCT151.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\MUXDECODER.OLB")
+      (DeviceIndex "0"))
+    (74HC4052
+      (FullPartName "74HC4052.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\MUXDECODER.OLB")
+      (DeviceIndex "0"))
+    (ATmega168-DIL28small
+      (FullPartName "ATmega168-DIL28small.Normal")
+      (LibraryName "H:\ROBOTS\ORCADLIB\AVR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "H:\robots\orcadlib")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "H:\ROBOTS\robots-comms-schem\robots-comms-schem.dsn")
+      (Path "Design Resources"
+         "H:\ROBOTS\robots-comms-schem\robots-comms-schem.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "H:\ROBOTS\robots-comms-schem\robots-comms-schem.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"
+         "H:\ROBOTS\robots-comms-schem\robots-comms-schem.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 635"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 201 1199 6 625")
+        (Scroll "-43 0")
+        (Zoom "89")
+        (Occurrence "/"))
+      (Path "H:\ROBOTS\ROBOTS-COMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "ATmega168-Comms"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 758 75 540")
+        (Scroll "0 0")
+        (Zoom "89")
+        (Occurrence "/"))
+      (Path "H:\ROBOTS\ROBOTS-COMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "ATmega644-Comms"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 783 100 565")
+        (Scroll "0 2")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "H:\ROBOTS\ROBOTS-COMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Comms-Mux-Decode"))))
