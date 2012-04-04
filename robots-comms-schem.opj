@@ -113,12 +113,7 @@
   (LastUsedLibraryBrowseDirectory "H:\robots\orcadlib")
   (GlobalState
     (FileView
-      (Path "Design Resources")
-      (Path "Design Resources"
-         "H:\robots\robots-avrcomms-schem\robots-comms-schem.dsn")
-      (Path "Design Resources"
-         "H:\robots\robots-avrcomms-schem\robots-comms-schem.dsn"
-         "MainSchematic"))
+      (Path "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -128,8 +123,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 1025 25 473")
-        (Scroll "-30 -5")
+        (Placement "44 0 1 -1 -1 -8 -30 25 1025 25 473")
+        (Scroll "-68 0")
         (Zoom "84")
         (Occurrence "/"))
       (Path "H:\ROBOTS\ROBOTS-AVRCOMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
@@ -138,8 +133,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1050 50 498")
-        (Scroll "-68 0")
+        (Placement "44 2 3 -1 -1 -8 -30 50 1050 50 498")
+        (Scroll "-176 -5")
         (Zoom "84")
         (Occurrence "/CMD"))
       (Path "H:\ROBOTS\ROBOTS-AVRCOMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
