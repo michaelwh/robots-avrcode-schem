@@ -7,7 +7,20 @@
     (File ".\robots-comms-schem.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Outputs")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -19,6 +32,43 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    ("HEADER 6"
+      (FullPartName "HEADER 6.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 6X2"
+      (FullPartName "HEADER 6X2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2x5"
+      (FullPartName "HEADER 2x5A.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (1N5139
+      (FullPartName "1N5139.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (10CTQ150/TO
+      (FullPartName "10CTQ150/TO.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (ATmega644P
       (FullPartName "ATmega644P.Normal")
       (LibraryName "H:\ROBOTS\ORCADLIB\MYLIB.OLB")
@@ -27,9 +77,6 @@
       (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (PORTRIGHT-R
-      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PORTLEFT-R
       (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-R
@@ -42,20 +89,10 @@
       (FullPartName "ATmega64.Normal")
       (LibraryName "H:\ROBOTS\ORCADLIB\AVR.OLB")
       (DeviceIndex "0"))
-    ("HEADER 5"
-      (FullPartName "HEADER 5.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName
          "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (0
-      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (74HCT138
       (FullPartName "74HCT138.Normal")
@@ -78,47 +115,34 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "H:\ROBOTS\robots-comms-schem\robots-comms-schem.dsn")
+         "H:\robots\robots-avrcomms-schem\robots-comms-schem.dsn")
       (Path "Design Resources"
-         "H:\ROBOTS\robots-comms-schem\robots-comms-schem.dsn" "SCHEMATIC1")
-      (Path "Design Resources"
-         "H:\ROBOTS\robots-comms-schem\robots-comms-schem.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources"
-         "H:\ROBOTS\robots-comms-schem\robots-comms-schem.dsn"))
+         "H:\robots\robots-avrcomms-schem\robots-comms-schem.dsn"
+         "MainSchematic"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 635"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 340 0 635"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 201 1199 6 625")
-        (Scroll "-43 0")
-        (Zoom "89")
+        (Placement "44 2 3 -1 -1 -8 -30 25 1025 25 473")
+        (Scroll "-30 -5")
+        (Zoom "84")
         (Occurrence "/"))
-      (Path "H:\ROBOTS\ROBOTS-COMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "ATmega168-Comms"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 758 75 540")
-        (Scroll "0 0")
-        (Zoom "89")
-        (Occurrence "/"))
-      (Path "H:\ROBOTS\ROBOTS-COMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
-      (Schematic "SCHEMATIC1")
+      (Path "H:\ROBOTS\ROBOTS-AVRCOMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
+      (Schematic "MainSchematic")
       (Page "ATmega644-Comms"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 100 783 100 565")
-        (Scroll "0 2")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "H:\ROBOTS\ROBOTS-COMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "Comms-Mux-Decode"))))
+        (Placement "44 0 1 -1 -1 -8 -30 50 1050 50 498")
+        (Scroll "-68 0")
+        (Zoom "84")
+        (Occurrence "/CMD"))
+      (Path "H:\ROBOTS\ROBOTS-AVRCOMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
+      (Schematic "Comms-Mux-Decode-H")
+      (Page "Comms-Mux-Decode-H")))
+  (MPSSessionName "mh23g08"))
