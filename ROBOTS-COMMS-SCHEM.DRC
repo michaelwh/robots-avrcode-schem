@@ -1,0 +1,52 @@
+
+--------------------------------------------------
+Checking Schematic: MainSchematic
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0004]  Possible pin type conflict CMD,Snoop3 Output Connected to Bidirectional
+                    MainSchematic, ATmega644-Comms  (6.90, 3.30) 
+WARNING:  [DRC0004]  Possible pin type conflict CMD,Snoop2 Output Connected to Bidirectional
+                    MainSchematic, ATmega644-Comms  (6.90, 3.10) 
+WARNING:  [DRC0004]  Possible pin type conflict CMD,Orientation5 Output Connected to Bidirectional
+                    MainSchematic, ATmega644-Comms  (6.90, 4.00) 
+WARNING:  [DRC0004]  Possible pin type conflict CMD,Orientation2 Output Connected to Bidirectional
+                    MainSchematic, ATmega644-Comms  (6.90, 4.60) 
+WARNING:  [DRC0004]  Possible pin type conflict CMD,Orientation4 Output Connected to Bidirectional
+                    MainSchematic, ATmega644-Comms  (6.90, 4.20) 
+WARNING:  [DRC0004]  Possible pin type conflict U6,PD0 Bidirectional Connected to Output
+                    MainSchematic, ATmega644-Comms  (3.30, 5.10) 
+WARNING:  [DRC0004]  Possible pin type conflict CMD,Snoop5 Output Connected to Bidirectional
+                    MainSchematic, ATmega644-Comms  (6.90, 3.70) 
+WARNING:  [DRC0004]  Possible pin type conflict CMD,Orientation1 Output Connected to Bidirectional
+                    MainSchematic, ATmega644-Comms  (6.90, 4.80) 
+WARNING:  [DRC0004]  Possible pin type conflict U6,PB3 Bidirectional Connected to Output
+                    MainSchematic, ATmega644-Comms  (3.30, 4.10) 
+WARNING:  [DRC0004]  Possible pin type conflict U6,PB2 Bidirectional Connected to Output
+                    MainSchematic, ATmega644-Comms  (3.30, 4.00) 
+WARNING:  [DRC0004]  Possible pin type conflict CMD,Orientation0 Output Connected to Bidirectional
+                    MainSchematic, ATmega644-Comms  (6.90, 5.00) 
+WARNING:  [DRC0004]  Possible pin type conflict CMD,Snoop4 Output Connected to Bidirectional
+                    MainSchematic, ATmega644-Comms  (6.90, 3.50) 
+WARNING:  [DRC0004]  Possible pin type conflict CMD,Orientation3 Output Connected to Bidirectional
+                    MainSchematic, ATmega644-Comms  (6.90, 4.40) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+--------------------------------------------------
+Checking Schematic: Comms-Mux-Decode-H
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0004]  Possible pin type conflict U5,G\2\B\ Input Connected to Passive Port
+                    Comms-Mux-Decode-H, Comms-Mux-Decode-H  (4.90, 1.20) 
+WARNING:  [DRC0004]  Possible pin type conflict U4,G\ Input Connected to Passive Port
+                    Comms-Mux-Decode-H, Comms-Mux-Decode-H  (5.30, 3.50) 
+WARNING:  [DRC0005]  Unconnected pin U4,D6
+                    Comms-Mux-Decode-H, Comms-Mux-Decode-H  (5.30, 2.80) 
+WARNING:  [DRC0005]  Unconnected pin U4,D7
+                    Comms-Mux-Decode-H, Comms-Mux-Decode-H  (5.30, 2.90) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets

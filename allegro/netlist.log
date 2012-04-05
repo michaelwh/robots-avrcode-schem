@@ -1,0 +1,31 @@
+{ Using PSTWRITER 16.3.0 p002Apr-05-2012 at 14:39:13 }
+
+#1 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R25: Comms-Mux-Decode-H, Comms-Mux-Decode-H (2.20, 6.30) .
+#2 Error   [ALG0012] Property "PCB Footprint" missing from instance D3: Comms-Mux-Decode-H, Comms-Mux-Decode-H (4.10, 5.00).
+#3 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R14: Comms-Mux-Decode-H, Comms-Mux-Decode-H (4.50, 6.10) .
+#4 Error   [ALG0012] Property "PCB Footprint" missing from instance U3: Comms-Mux-Decode-H, Comms-Mux-Decode-H (5.60, 2.10).
+#5 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R26: Comms-Mux-Decode-H, Comms-Mux-Decode-H (2.60, 6.10) .
+#6 Error   [ALG0012] Property "PCB Footprint" missing from instance D4: Comms-Mux-Decode-H, Comms-Mux-Decode-H (5.20, 4.90).
+#7 Error   [ALG0012] Property "PCB Footprint" missing from instance D5: Comms-Mux-Decode-H, Comms-Mux-Decode-H (6.40, 4.90).
+#8 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R16: Comms-Mux-Decode-H, Comms-Mux-Decode-H (5.60, 6.10) .
+#9 Error   [ALG0012] Property "PCB Footprint" missing from instance D6: Comms-Mux-Decode-H, Comms-Mux-Decode-H (7.60, 4.90).
+#10 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R18: Comms-Mux-Decode-H, Comms-Mux-Decode-H (6.80, 6.10) .
+#11 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R19: Comms-Mux-Decode-H, Comms-Mux-Decode-H (7.60, 6.40) .
+#12 Error   [ALG0012] Property "PCB Footprint" missing from instance J1: MainSchematic, ATmega644-Comms (1.20, 6.10).
+#13 Error   [ALG0012] Property "PCB Footprint" missing from instance J2: MainSchematic, ATmega644-Comms (1.00, 3.30).
+#14 Error   [ALG0012] Property "PCB Footprint" missing from instance J3: Comms-Mux-Decode-H, Comms-Mux-Decode-H (7.20, 0.40).
+#15 Error   [ALG0012] Property "PCB Footprint" missing from instance J4: Comms-Mux-Decode-H, Comms-Mux-Decode-H (7.80, 2.40).
+#16 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R20: Comms-Mux-Decode-H, Comms-Mux-Decode-H (8.00, 6.10) .
+#17 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R21: Comms-Mux-Decode-H, Comms-Mux-Decode-H (6.40, 6.40) .
+#18 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R22: Comms-Mux-Decode-H, Comms-Mux-Decode-H (5.20, 6.40) .
+#19 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R23: Comms-Mux-Decode-H, Comms-Mux-Decode-H (4.10, 6.40) .
+#20 Error   [ALG0012] Property "PCB Footprint" missing from instance D1: Comms-Mux-Decode-H, Comms-Mux-Decode-H (2.20, 5.00).
+#21 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R12: Comms-Mux-Decode-H, Comms-Mux-Decode-H (3.60, 6.10) .
+#22 Error   [ALG0012] Property "PCB Footprint" missing from instance U1: MainSchematic, ATmega644-Comms (3.60, 3.70).
+#23 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R24: Comms-Mux-Decode-H, Comms-Mux-Decode-H (3.20, 6.40) .
+#24 Error   [ALG0012] Property "PCB Footprint" missing from instance D2: Comms-Mux-Decode-H, Comms-Mux-Decode-H (3.20, 5.00).
+#25 Error   [ALG0012] Property "PCB Footprint" missing from instance U2: Comms-Mux-Decode-H, Comms-Mux-Decode-H (5.20, 0.50).
+#26 Error   [ALG0050] Duplicate Pin Name "GND" found on Package ATmega644P , U1 Pin Number 31: MainSchematic, ATmega644-Comms (3.60, 3.70). Please renumber one of these.
+#27 Info: PCB Editor does not support Dots(.), Forward Slash(/) and White space in footprint names. The supported characters include Alphabets, Numerics, Underscore(_) and Hyphen(-).
+
+#28 Aborting Netlisting... Please correct the above errors and retry.
