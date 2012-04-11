@@ -82,6 +82,10 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (74HCT04
+      (FullPartName "74HCT04.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
     ("HEADER 6"
       (FullPartName "HEADER 6.Normal")
       (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -174,8 +178,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1264 125 599")
-        (Scroll "-60 0")
+        (Placement "44 2 3 -1 -1 -8 -30 125 1264 125 599")
+        (Scroll "0 94")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\ROBOTS\ROBOTS-AVRCOMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
@@ -184,9 +188,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 1189 0 371")
-        (Scroll "-314 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -30 0 1189 0 371")
+        (Scroll "-163 0")
+        (Zoom "84")
         (Occurrence "/CMD"))
       (Path "H:\ROBOTS\ROBOTS-AVRCOMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
       (Schematic "Comms-Mux-Decode-H")
