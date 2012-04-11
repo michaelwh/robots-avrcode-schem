@@ -178,8 +178,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 125 1264 125 599")
-        (Scroll "0 94")
+        (Placement "44 0 1 -1 -1 -8 -30 125 1264 125 599")
+        (Scroll "-60 4")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\ROBOTS\ROBOTS-AVRCOMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
@@ -188,9 +188,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 1189 0 371")
-        (Scroll "-163 0")
-        (Zoom "84")
+        (Placement "44 2 3 -1 -1 -8 -30 0 1189 0 371")
+        (Scroll "-163 -4")
+        (Zoom "90")
         (Occurrence "/CMD"))
       (Path "H:\ROBOTS\ROBOTS-AVRCOMMS-SCHEM\ROBOTS-COMMS-SCHEM.DSN")
       (Schematic "Comms-Mux-Decode-H")
