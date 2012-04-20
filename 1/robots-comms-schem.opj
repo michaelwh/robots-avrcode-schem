@@ -169,37 +169,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "H:\mydocuments\robots-avrcode-schem\1\robots-comms-schem.dsn")
-      (Path "Design Resources"
-         "H:\mydocuments\robots-avrcode-schem\1\robots-comms-schem.dsn"
-         "MainSchematic")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 340 0 635"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 175 1602 175 645")
-        (Scroll "-314 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "H:\MYDOCUMENTS\ROBOTS-AVRCODE-SCHEM\1\ROBOTS-COMMS-SCHEM.DSN")
-      (Schematic "MainSchematic")
-      (Page "ATmega644-Comms"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 1627 200 670")
-        (Scroll "-204 30")
-        (Zoom "100")
-        (Occurrence "/CMD"))
-      (Path "H:\MYDOCUMENTS\ROBOTS-AVRCODE-SCHEM\1\ROBOTS-COMMS-SCHEM.DSN")
-      (Schematic "Comms-Mux-Decode-H")
-      (Page "Comms-Mux-Decode-H")))
+      (Tab 0)))
   (MPSSessionName "jgac1g08")
   (ISPCBBASICLICENSE "false"))
